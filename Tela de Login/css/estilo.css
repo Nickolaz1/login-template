@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/90/d3/69/90d369307d0a2cac8dd2cea650f4f797.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    color: aliceblue;
+    margin: 100px 0px 100px 0px;
+}
+
+#container{
+    display: block;
+    height: 50vh;
+    width: 30vw;
+    margin-left: 35vw;
+    background-color: aliceblue;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+form{
+    padding-top: 50px;
+}
+
+.box{
+    display: block;
+    margin: 80px;
+}
+
+.myLabel{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color: slateblue;
+}
+
+#email{
+    height: 25px;
+    width: 250px;
+    margin-left: 10px;
+    border: 1px solid slateblue;
+    border-radius: 2px;
+}
+
+#senha{
+    height: 25px;
+    width: 250px;
+    margin-left: 10px;
+    border: 1px solid slateblue;
+    border-radius: 2px;
+}
+
+#button{
+    height: 50px;
+    width: 130px;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    color: mediumslateblue;
+    background-color: white;
+    border: 1px solid mediumslateblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: mediumslateblue;
+    color: white;
+}
